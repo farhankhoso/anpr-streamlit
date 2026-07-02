@@ -42,26 +42,32 @@ Python **3.10** is required (stable combination for `paddleocr` + `ultralytics`)
 
 ## Setup & Run
 
-1. Clone the repo and create a virtual environment (Python 3.10):
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/farhankhoso/anpr-streamlit.git
+   cd 'anpr-streamlit'
+   ```
+
+2. Create a virtual environment (Python 3.10):
    ```bash
    python -m venv .venv
    .venv\Scripts\activate      # Windows
    source .venv/bin/activate   # macOS/Linux
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Make sure the YOLO weights file `Number_Plate.pt` is present in the project directory** (same folder as `app.py`). The app defaults to this filename, but the path is editable from the sidebar if yours is named/located differently.
+4. **Make sure the YOLO weights file `Number_Plate.pt` is present in the project directory** (same folder as `app.py`). The app defaults to this filename, but the path is editable from the sidebar if yours is named/located differently.
 
-4. Run the app:
+5. Run the app:
    ```bash
    streamlit run app.py
    ```
 
-5. Open your browser at [http://localhost:8501](http://localhost:8501)
+6. Open your browser at [http://localhost:8501](http://localhost:8501)
 
 ## Repo Checklist
 
