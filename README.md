@@ -2,6 +2,9 @@
 
 A Streamlit web app that combines a YOLO object detector with PaddleOCR text recognition to detect and read license plates from images and videos.
 
+## Demo
+
+🔗 **[Try it live here](https://anpr-web.streamlit.app/)**
 ## Features
 
 ### 🖼️ Image Tab
