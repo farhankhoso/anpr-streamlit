@@ -87,7 +87,3 @@ This happens when PyTorch and PaddlePaddle DLLs (OpenMP/MKL) collide in the same
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 ```
-
-## License
-
-Add your license of choice here (e.g. MIT).
